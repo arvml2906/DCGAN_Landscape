@@ -5,10 +5,9 @@ DCGAN uses convolutional and convolutional-transpose layers in the generator and
 
 The implementation was done on Google colab. Images were downloaded on to google drive and subsequently used in the notebook. 
 
-## Design decisions:
+Refer  ``` Training_code.ipynb``` for the training code.
 
 
-## Evaluation:
 
 ## Install Requirements:
 For installing the requirements for this software, please run the following: 
@@ -19,4 +18,4 @@ For installing the requirements for this software, please run the following:
   
 
 ## Dataset
-https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset
+https://www.kaggle.com/datasets/arnaud58/landscape-pictures
