@@ -4,10 +4,12 @@ from PIL import Image
 from torch.utils.data import Dataset
 from torchvision import transforms
 
+
 class SCAPE(Dataset):
     '''
-   
+
     '''
+
     def __init__(self, data_path, transform=None):
         '''
         Args:
@@ -16,7 +18,7 @@ class SCAPE(Dataset):
         self.data_path = data_path
         self.transform = transform
         self.fpaths = sorted(glob.glob(os.path.join(data_path, '*.jpg')))
-        gray_lst = ['00000356_(5)','00000172_(6)','00000692_(2)']
+        gray_lst = ['00000356_(5)', '00000172_(6)', '00000692_(2)']
         for num in gray_lst:
             self.fpaths.remove(os.path.join(data_path, '{}.jpg'.format(num)))
 

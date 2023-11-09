@@ -4,9 +4,19 @@ DCGAN uses convolutional and convolutional-transpose layers in the generator and
 
 The implementation was done on Google colab. Images were downloaded on to google drive and subsequently used in the notebook. 
 
-Refer  ``` Training_code.ipynb``` for codes related to training the model, and plotting results, ```dataloader.py``` for data preprocessing steps(remove incompatible images), ```modelDCGAN.py``` for Discriminator and Generator classes and their architecture.
+Refer  ``` Training_code.ipynb``` for codes related to training the model(ipynb notebook), and plotting results, ```dataloader.py``` for data preprocessing steps(remove incompatible images), ```modelDCGAN.py``` for Discriminator and Generator classes and their architecture.
 
+Refer  ```Training_code.ipynb``` for the training code .ipynb file.
 
+Refer ```training_code.py``` for the training code .py file.
+
+All code in this reposiroty is based on PEP-8 standards(Important for contributing to the repo).
+
+## Generated results
+
+Generated Image:
+
+![Alt text](image.png)
 
 
 ## Install Requirements:
